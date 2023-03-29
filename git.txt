@@ -14,3 +14,6 @@
 
 * git push -u origin main => Hacer efectiva la cincronizacion del local con el remoto
 
+* git push origin master => Fusiona una copia del master local con el remoto
+
+* git pull origin master => Fusiona una copia del master remoto con el local
