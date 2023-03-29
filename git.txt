@@ -1,0 +1,16 @@
+* git init => Se inicializa el repositorio local
+
+* git add . => Es un comando que nos permite agregar al repositorio todos los archivos a los cuales se le haya hecho algún cambio.
+
+* git commit: => Envía los últimos cambios del archivo a la base de datos del sistema de control de versiones. 
+			Una buena práctica al usar este comando es añadir m; al hacer esto, 
+			podemos escribir un mensaje que nos permita recordar los cambios que hicimos en ese momento.
+
+* git brench -m main => Subimos a nuestra rama principal
+
+* git remote add origin => (https-url) => Establecer un origin remoto
+
+* git remote -v => verifica la existencia del origen remoto=
+
+* git push -u origin main => Hacer efectiva la cincronizacion del local con el remoto
+
