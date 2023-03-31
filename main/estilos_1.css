@@ -9,7 +9,7 @@ header, nav, section, article, footer
 {
     border-radius: 10px;
     padding: 15px;
-   /* border: solid 2px black;*/
+    /* border: solid 2px black;*/
     margin-top: 10px;
 }
 
@@ -22,7 +22,7 @@ header
     overflow: hidden;
 }
 
-nav 
+nav
 {
     width: 30%;
     float: left;
@@ -37,7 +37,6 @@ section
     float: right;
     background-color: #D8B0FF;
     overflow: hidden;
-    
 }
 
 footer
@@ -63,7 +62,6 @@ article
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 body {

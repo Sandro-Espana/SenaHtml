@@ -1,0 +1,290 @@
+div.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(204, 204, 204, .4); 
+    border-radius: 5px 5px 10px 10px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5); 
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5); 
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+}
+
+header,nav,section,article,footer{
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px; 
+
+}
+
+header{
+    height: 160px;
+    width: 100%;
+    float: center;
+    background-color: #FFAAAA;
+    overflow: hidden;
+
+}
+
+header img{
+    float: right;
+    height: 100%;
+    margin-right: 5%;
+    /*define el retrazo y la velocidad de cambios*/
+    -webkit-transition-delay: 0s;
+    -webkit-transition-duration: 2s;
+    -webkit-transition-property: all;
+}
+/*Para animar un poco el lo cuando se pasa el puntero sobre el*/
+
+header img:hover{
+/*se cambian tres propiedades*/
+height: 120%;
+margin-right: 15%;
+transform: rotate(30deg);
+-webkit-transform: rotate(30deg);
+-moz-transform: rotate(30deg);
+}
+nav{
+    width: 27%;
+    float: left;
+    background-color: #fff0aa;
+    margin-left: 5px;
+}
+
+section{
+    /*height: 500px;*/
+    width: 62%;
+    float: right;
+    background-color: #d8b0ff;
+    overflow: hidden;
+
+}
+
+footer{
+    height: 40px;
+    width: 100%;
+    float: left;
+    background-color: #B0E8AC;
+}
+footer img{
+    float: left;
+    height: 100%;
+    margin-right: 20%;
+}
+header, footer, article{
+    margin-bottom: 10px;
+
+}
+
+article{
+    height: 30%;
+    width: 90%;
+    float: center;
+    background-color: #aaf0ff;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    line-height: 1;
+    /*background-color: white;*/
+    /*color: #333;*/
+    font: 16px/28px Georgia, 'Times New Roman', Times, serif;
+    
+    /* Tomado de: http://leaverou.me/demos/css3-patterns.html */ 
+    background-color: #13dde4; /* Change this to change both stribe colors */
+
+    background-image: -webkit-gradient(linear, Ø 100%, 100% 0, 
+                            color-stop(.25, rgba(252, 7, 7, 0.2)), color-stop(.25, transparent), 
+                            color-stop(.5, transparent), color-stop(.5, rgba(241, 12, 12, 0.2)), 
+                            color-stop(.75, rgba(250, 6, 6, 0.2)), color-stop(.75, transparent), 
+                            to (transparent)); /* Old webkit syntax */
+    background-image: -webkit-linear-gradient(45deg, rgba(207, 15, 15, 0.2) 25%, transparent 25%,
+                            transparent 50%, rgba(12, 112, 241, 0.2) 50%, rgba(252, 7, 7, 0.2) 75%, 
+                            transparent 75%, transparent); /* New webkit syntax */
+    background-image: -moz-linear-gradient(45deg, rgba(172, 6, 6, 0.2) 25%, transparent 25%, 
+                            transparent 50%, rgba(235, 11, 11, 0.2) 50%, rgba(255, 0, 0, 0.2) 75%,
+                            transparent 75%, transparent); /* Firefox */
+    background-image: -o-linear-gradient(45deg, rgba(245, 12, 12, 0.2) 25%, transparent 25%, 
+                            transparent 50%, rgba(211, 27, 27, 0.2) 50%, rgba(236, 5, 5, 0.2) 75%,
+                            transparent 75%, transparent); /* Opera */ 
+    background-image: linear-gradient(45deg, rgba(218, 24, 24, 0.2) 25%, transparent 25%,
+                            transparent 50%, rgba(235, 6, 6, 0.2) 50%, rgba(243, 13, 13, 0.2) 75%,
+                            transparent 75%, transparent); /* WC3 */
+    background-size: 16px 16px;
+}
+
+/*Headings*/
+
+h1,h2{
+    font-family: 'Droid Serif', sans-serif;
+    text-shadow: 0 2px 0 #fff ;
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;
+}
+/*Headings*/
+h1,h2{
+    font-family: 'Droid Serif', sans-serif;
+}
+h1{
+    font-size: 32px;
+    text-shadow: 0 2px 0 #fff ;
+}
+h2{
+    font-size: 26px;
+}
+
+header h1{
+    font: bold;
+    font-size: 40px;
+    margin-top: 7%;
+    float: left;
+}
+
+div.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 100%;
+    overflow: hidden;
+    background: rgba(211, 16, 16, 0.4); 
+    border-radius: 5px 5px 10px 10px;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5); 
+    -moz-box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5); 
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.4), 0px 0px 15px rgba(204, 204, 204, 0.5);
+}
+/*navegacion*/
+li a{
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    padding: 5% 15%;
+    color:#668428;
+    margin-top: 7px;
+    width: 60%;
+    text-decoration: none;
+    /*fondo gradiente*/
+    background: -moz-linear-gradient(center top, #cdeb8e 0%, #a5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #cdeb8e), color-stop(100%, #a5c956));
+    /*borde redondeado en equina opuestas*/
+    -moz-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 20px 0 20px 0;
+    
+    /*sonbredos*/
+    text-shadow: 1px 1px 1px #E1FEa6;
+    -moz-box-shawdow: 0px 6px 0 #819F45;
+    -webkit-box-shawdow:0px 6px 0 #819F45;
+    
+    margin-bottom: 5px;
+}
+li a:hover{
+    /*cambiar bordes en esquinas opuestas*/
+    -moz-border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+
+    /*cambiar colores de fondo y sombra*/
+    background: -moz-linear-gradient(center top, #99ffcc 0%, #656b69 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #99ffcc), color-stop(100%, #585d5b));
+    -moz-box-shawdow: 0px 6px 0 #336666;
+    -webkit-box-shawdow: 0px 6px 0 #336666;
+}
+li a:active{
+    /*Efecto de movimiento*/
+    position:relative;
+    top: 3px;
+    /*Efecto de de undimiento*/
+    -moz-box-shawdow: 0px 3px 0 #336666;
+    -webkit-box-shawdow: 0px 3px 0 #336666;
+    /*invertir degradado*/
+    background: -moz-linear-gradient(center top, #009966 0%, #99ffcc 100%) 
+    repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #009966), c
+    olor-stop(100%, #99ffcc));  
+}    
+
+
+
+/*Para resoluciones hasta 480 px*/ 
+@media screen and (max-width: 480px) {
+}
+
+/*Para resoluciones hasta 700 px*/ 
+@media screen and (max-width: 700px) {
+}
+
+/*Para resoluciones hasta 480 px*/ 
+@media screen and (max-width: 480px) {
+div.contenedor { 
+    width: 100%;
+    }
+}
+
+/*Para resoluciones hasta 480 px*/ 
+@media screen and (max-width: 480px) {
+    div.contenedor { 
+        width: 100%;
+    }
+    header, nav, section, footer, article{ 
+    float: left;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+    }
+    header {
+        height: 60px;
+    }
+    footer {
+        height: 30px;
+    }
+}
+
+/* Tamaños de Fuentes*/
+    h1 {
+    font-size: 17px;
+    text-shadow: 0 0 0; /*eliminar la sombra*/
+}
+h2 {
+    font-size: 14px;
+}
+header h1 {
+    font-size: 18px; margin-top: 5%;
+}
+P{ font-size: 13px;
+    line-height: 1.2em;
+}
+
+/*Botones*/
+li a{
+    font-size: .9em; 
+    margin-top: 0px; 
+    margin-left: -3px; 
+    float: left; 
+    width: 84%; 
+    padding: 7px 6px; 
+    margin-bottom: 10px;
+    /*Borde redondeado en esquinas opuestas*/ 
+    -moz-border-radius: 17px 0 17px 0; 
+    -webkit-border-radius: 17px 0 17px 0;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+    text-align: center;
+    width: 4em;
+}
+
