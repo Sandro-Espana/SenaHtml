@@ -6,7 +6,7 @@
 			Una buena práctica al usar este comando es añadir m; al hacer esto, 
 			podemos escribir un mensaje que nos permita recordar los cambios que hicimos en ese momento.
 
-* git brench -m main => Subimos a nuestra rama principal
+* git branch -m main => Subimos a nuestra rama principal
 
 * git remote add origin => (https-url) => Establecer un origin remoto
 
