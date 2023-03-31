@@ -195,6 +195,7 @@ li a:hover{
     -moz-box-shawdow: 0px 6px 0 #336666;
     -webkit-box-shawdow: 0px 6px 0 #336666;
 }
+
 li a:active{
     /*Efecto de movimiento*/
     position:relative;
@@ -206,8 +207,8 @@ li a:active{
     background: -moz-linear-gradient(center top, #009966 0%, #99ffcc 100%) 
     repeat scroll 0 0 transparent;
     background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #009966), c
-    olor-stop(100%, #99ffcc));  
-}    
+    olor-stop(100%, #99ffcc));
+}
 
 
 

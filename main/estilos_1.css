@@ -34,7 +34,7 @@ header img
 {
     float: right;
     height: 100%;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 nav
@@ -122,7 +122,7 @@ h1
     font-size: 32px;
 }
 
-h2
+h2, p
 {
     font-size: 26px;
 }
@@ -130,4 +130,58 @@ h2
 header h1
 {
     font-size: 40px;
+}
+
+/*navegacion*/
+li a
+{
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: sans-serif;
+    padding: 10% 20%;
+    color: #668428;
+
+    /*fondo gradiente*/
+    background: -moz-linear-gradient(center top, #cdeb8e 0%, #a5C956 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #cdeb8e), color-stop(100%, #a5c956));
+
+    /*borde redondeado en equina opuestas*/
+    -moz-border-radius: 20px 0 20px 0;
+    -webkit-border-radius: 20px 0 20px 0;
+
+    /*sonbredos*/
+    text-shadow: 1px 1px 1px #E1FEa6;
+    -moz-box-shawdow: 0px 6px 0 #819F45;
+    -webkit-box-shawdow:0px 6px 0 #819F45;
+
+    /*margen inferior para separar elementos verticales*/
+    margin-bottom: 5px;
+}
+
+li a:hover
+{
+    /*cambiar bordes en esquinas opuestas*/
+    -moz-border-radius: 0 20px 0 20px;
+    -webkit-border-radius: 0 20px 0 20px;
+
+    /*cambiar colores de fondo y sombra*/
+    background: -moz-linear-gradient(center top, #99ffcc 0%, #656b69 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #99ffcc), color-stop(100%, #585d5b));
+    -moz-box-shawdow: 0px 6px 0 #336666;
+    -webkit-box-shawdow: 0px 6px 0 #336666;
+}
+
+
+li a:active{
+    /*Efecto de movimiento*/
+    position:relative;
+    top: 3px;
+    /*Efecto de de undimiento*/
+    -moz-box-shawdow: 0px 3px 0 #336666;
+    -webkit-box-shawdow: 0px 3px 0 #336666;
+    /*invertir degradado*/
+    background: -moz-linear-gradient(center top, #009966 0%, #99ffcc 100%) 
+    repeat scroll 0 0 transparent;
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(0%, #009966), c
+    olor-stop(100%, #99ffcc));
 }
